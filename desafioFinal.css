@@ -1,0 +1,134 @@
+        header nav div a img {
+            height: 2rem;
+        }
+        
+        .tarjetaPadre {
+            margin: 8rem;
+            position: relative;
+        }
+        
+        .tarjetaHijo {
+            position: relative;
+            display: flex;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: .25rem;
+            align-items: center;
+            justify-content: center;
+            align-content: stretch;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        
+        .icono {
+            color: white;
+            height: 2rem;
+        }
+        
+        img.icono {
+            color: white;
+        }
+        
+        a:hover {
+            transform: translateY(-1px) scale(1.02);
+            box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+            filter: none;
+            color: #d9d4e7;
+        }
+        
+        .borrarPrenda {
+            background-color: rgb(32, 32, 32);
+            color: white;
+            padding: 2px;
+            border-radius: 100px;
+            text-decoration: none;
+            align-content: center;
+        }
+        
+        .borrarPrenda:hover {
+            background-color: red;
+        }
+        
+        .rowCarrito {
+            display: flex;
+            align-items: stretch;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .alertConfirmacion {
+            width: 45vh;
+            text-align: center;
+            align-content: center;
+            height: auto;
+            padding: 1rem;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            z-index: 1;
+            position: sticky;
+        }
+        
+        #caja {
+            display: flex;
+            color: white;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #cajaClima {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        #cajaClima2 {
+            display: flex;
+            align-items: flex-end;
+        }
+        
+        #climaCiudad {
+            font-size: 1rem;
+        }
+        
+        .btn {
+            margin: 5px;
+        }
+        
+        #vaciarCarrito {
+            background-color: grey;
+        }
+        
+        #banner {
+            width: -webkit-fill-available;
+        }
+        
+        h2 {
+            font-size: calc(1.325rem + .9vw);
+            text-align-last: center;
+            padding-top: 3vh;
+        }
+        
+        .filtrarHover {
+            text-align-last: center;
+            border-width: 1px;
+            border-bottom: rgba(0, 0, 0, .125);
+        }
+        
+        tr {
+            vertical-align: baseline;
+            text-align: center;
+        }
+        
+        th {
+            padding: 3px;
+        }
+        
+        .colorCheck:click {
+            background-color: rgba(0, 0, 0, .125);
+        }
